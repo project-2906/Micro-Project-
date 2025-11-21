@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizards'Words</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <video autoplay loop muted plays-inline class="back">
+           <source src="final.mp4" type="video/mp4">
+        </video>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="cart.png" height="30px" height="30px">
+        <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+    <div class="container2">
+    <div class="row">
+        <div class="col-2">
+            <h1>Discover Your Next<br>Great Read!</h1>
+            <p>From ancient sagas to cutting-edge science,history's wishpers to future's
+            <br>dreams - our curated collection promises to expand your horizons and <br>
+            nourish your intellect.
+            </p>
+            <a href="" class="btn">Explore Now &#8594</a>
+
+        </div>
+        <div class="col-2">
+            <!---<img src="image1.png">
+            <video autoplay loop muted plays-inline class="back">
+           <source src="vedio back.mp4" type="video/mp4">
+        </video>--->
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+    
+<!-----featured genres-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="fiction.png"></div>
+                <div class="col-3"><img src="non fiction.png"></div>
+                <div class="col-3"><img src="poetry.png"></div>
+            </div>
+        </div>
+    </div>
+
+    <!----featured books-->
+
+<div class="small-container">
+    <h2 class="title">Featured Books</h2>       
+    <div class="row">
+        <div class="col-4">
+            <a href="book-detail.html"><img src="recent4.jpg"></a>
+            <h4>The Lightening Thief and Percy Jackson by Rick Riordan</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="nonfictionimg.jpg">
+            <h4>Sapiens: A Brief History of Humankind by Yuval Noah</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="poetryimg.jpg">
+            <h4>"Ariel" by Sylvia Plath</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="img.jpg">
+            <h4>"The Pilgrimage" by Paulo Coelho</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <!--best sellers-->
+        <h2 class="title">Best Sellers</h2>
+
+    <div class="row">
+        <div class="col-4">
+            <img src="images.jpg">
+            <h4> Game of Thrones (A Song of Ice and Fire #1) by George R.R. Martin</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="recent1.jpg">
+            <h4>The Final Experiment by Yogesh Sy</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="recent5.jpg">
+            <h4>Harry Potter and the Philosopher's Stone
+Novel by J. K. Rowling</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="recent3.jpg">
+            <h4>Rich Dad Poor Dad Book by Robert Kiyosaki and Sharon Lechter</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+             <img src="recent2.jpg">
+            <h4>Memory: How to Develop, Train and Use It: Large Print
+Book by Theron Q. Dumont
+</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="recent6.jpg">
+            <h4>The Hobbit
+Novel by John Ronald Reuel Tolkien</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="recent7.jpg">
+            <h4>Ikigai: The Japanese Secret to a Long and Happy Life
+Book by Francesc Miralles and Hector Garcia</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+            </div>
+            <div class="col-4">
+            <img src="recent8.jpg">
+            <h4>The Metamorphosis
+Novella by Franz Kafka</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+
+            </div>
+            <p>$50.00</p>
+
+        </div>
+    </div>
+
+</div>
+<!---offer--->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2"><img src="exclusive.png" class="offer-img"></div>
+            <div class="col-2">
+                <p>Exclusively Available on Wizards'Words</p>
+                <h1>"Percy Jackson & the Olympians: The Complete 5-Book Audiobook Collection"</h1>
+                <small>
+                    Includes all five iconic books in the original Percy Jackson & the Olympians series:<br>The Lightning Thief, The Sea of Monsters, The Titan's Curse, The Battle of the Labyrinth, and The Last Olympian.<br>
+Offers hundreds of hours of immersive storytelling from start to finish.
+                </small>
+                <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!--- readers say ------>
+<div class="testimonials">
+    <div style="margin:10px;"><h2 style="text-align:center;">What Our Readers Have to Say!</h2></div>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>An Epic Adventure!" "Couldn't put it down! Riordan's storytelling is pure magic from start to finish.</p>
+                <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <img src="person1.png">
+                <h3>By MythicalMaven</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>"Captivating & Clever" "Perfect blend of humor, action, and mythology. A truly brilliant series!"</p>
+                <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <img src="person2.png">
+                <h3>By HappyReader</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>"Simply Legendary" "Percy Jackson is a modern classic. This collection is a treasure for any bookshelf."</p>
+                <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <img src="person3.png">
+                <h3>By questseeker</h3>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---authors-->
+<div class="authors">
+    <div style="margin:10px;"><h2 style="text-align:center;">AUTHORS</h2></div>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="authorextra.jpg">
+                <h4>Rick Riordan</h4>
+            </div>
+             <div class="col-5">
+                <img src="author2.jpg">
+                <h4>Yuval Noah Harari</h4>
+            </div>
+             <div class="col-5">
+                <img src="author3.jpg">
+                <h4>Paulo Coelho</h4>
+            </div>
+             <div class="col-5">
+                <img src="author4.jpg">
+                <h4>John Ronald Reuel Tolkien</h4>
+            </div>
+            <div class="col-5">
+                <img src="author5.jpg">
+                <h4>Ruskin Bond</h4>
+            </div> 
+        </div>
+    </div>
+</div>
+</div>
+<!---footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="playapp.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo.png">
+                <p>"Wizards'Words is dedicated to bringing the best books directly to your hands.<br> Our purpose is to simplify your search for great reads and deliver them with efficiency and care,<br>making every book an easy acquisition."</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            
+            
+        </div>
+        <hr>
+        <p class="copyright">Copyright</p>
+
+    </div>
+    
+    <!-----js for toggle menu-->
+    <script>
+        let MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+</html>
