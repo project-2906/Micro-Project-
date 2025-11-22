@@ -219,11 +219,11 @@ small{
 .col-3 p{
     font-size:12px;
     margin: 12px 0;
-    color: #777;
+    color: black;
 }
 .testimonials .col-3 h3{
     font-weight: 600;
-    color: #555;
+    color: black;
     font-size: 16px;
 }
 /*----authors---*/
@@ -530,3 +530,4 @@ form a{
             display:none;
         }
      }
+
